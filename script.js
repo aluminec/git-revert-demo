@@ -33,11 +33,3 @@ formEl.on('submit', handleFormSubmit);
 $('#skill-name').autocomplete({
     source: skillNames,
   });
-
-// Datepicker widget
-$(function () {
-  $('#datepicker').datepicker({
-    changeMonth: true,
-    changeYear: true,
-  });
-});
