@@ -29,3 +29,7 @@ var handleFormSubmit = function (event) {
 };
 
 formEl.on('submit', handleFormSubmit);
+
+$('#skill-name').autocomplete({
+    source: skillNames,
+  });
